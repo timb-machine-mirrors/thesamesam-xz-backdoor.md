@@ -11,10 +11,10 @@ your average Linux or macOS system will have it installed for
 convenience.
 
 This backdoor is very indirect and only shows up when a few specific
-criteria are met. However, this backdoor is triggerable by remote
+criteria are met. However, this backdoor is _at least_ triggerable by remote
 unprivileged systems connecting to public SSH ports. This has been
-seen in the wild where it gets activated by connections, but we do not
-know yet what is required to bypass authentication (etc) with it.
+seen in the wild where it gets activated by connections - resulting in performance
+issues, but we do not know yet what is required to bypass authentication (etc) with it.
 
 TL;DR: We _think_ the following things need to be true for your system
 to be vulnerable:
