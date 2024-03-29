@@ -16,7 +16,7 @@ triggerable by remote unprivileged systems connecting to public SSH ports. This 
 seen in the wild where it gets activated by connections - resulting in performance
 issues, but we do not know yet what is required to bypass authentication (etc) with it.
 
-TL;DR: We _think_ the following things need to be true for your system
+TL;DR: We're reasonably sure the following things need to be true for your system
 to be vulnerable:
 
 * You need to be running a rolling-release distro and updating
@@ -24,7 +24,9 @@ to be vulnerable:
 * You need to be running a distro that uses glibc and systemd
 * You need to have versions 5.6.0 or 5.6.1 of xz or liblzma installed
   (xz-utils provides the library liblzma)
-* You need to have your SSH port exposed to the public internet
+
+If you're also running a publicly accessible `sshd`, then you are
+certainly vulnerable. If you aren't, it is unknown for now. 
 
 If all of these are the case, please update your systems to mitigate
 this threat. For more information about affected systems and how to
