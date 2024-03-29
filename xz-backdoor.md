@@ -112,7 +112,7 @@ tree. We have not analyzed this payload in detail. Here are the main
 things we know:
 
 * The payload only activates if the running program has the process
-  name `/usr/bin/sshd`. This means that systems that put `sshd` in
+  name `/usr/sbin/sshd`. This means that systems that put `sshd` in
   `/usr/sbin` or another folder are not vulnerable. This further
   suspects targeting systemd systems due to their
   [usrmerge](https://wiki.debian.org/UsrMerge) initiative putting all
