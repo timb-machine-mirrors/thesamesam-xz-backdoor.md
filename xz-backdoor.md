@@ -26,7 +26,8 @@ to be vulnerable:
   (xz-utils provides the library liblzma)
 
 If you're also running a publicly accessible `sshd`, then you are
-certainly vulnerable. If you aren't, it is unknown for now. 
+likely vulnerable. If you aren't, it is unknown for now, but you should
+update as quickly as possible because investigations are continuing.
 
 If all of these are the case, please update your systems to mitigate
 this threat. For more information about affected systems and how to
