@@ -56,8 +56,8 @@ This backdoor has several components. At a high level:
   consumers don't need to remember how to run autotools and autoconf.
   The version of `build-to-host.m4` in the release tarballs differs
   wildly from the upstream on GitHub.
-* There are crafted test files in the `tests/` folder. These files are
-  in the following commits:
+* There are crafted test files in the `tests/` folder within the git repository too.
+  These files are in the following commits:
     - `tests/files/bad-3-corrupt_lzma2.xz` ([cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0](https://github.com/tukaani-project/xz/commit/cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0), [74b138d2a6529f2c07729d7c77b1725a8e8b16f1](https://github.com/tukaani-project/xz/commit/74b138d2a6529f2c07729d7c77b1725a8e8b16f1))
     - `tests/files/good-large_compressed.lzma`
       ([cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0](https://github.com/tukaani-project/xz/commit/cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0),
