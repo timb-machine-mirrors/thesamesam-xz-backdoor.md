@@ -58,7 +58,7 @@ Lasse regularly has internet breaks and is on one at the moment, started before 
 
 ## Acknowledgements
 
-* Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
+* Andres Freund (@anarazel) who discovered the issue and reported it to *linux-distros* and then *oss-security*.
 * All the hard-working security teams helping to coordinate a response and push out fixes.
 
 ## References
