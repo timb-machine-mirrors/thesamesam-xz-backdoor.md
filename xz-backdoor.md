@@ -157,6 +157,9 @@ Lasse regularly has internet breaks and is on one at the moment,
 started before this all kicked off. We believe CISA may be trying to
 get in contact with him.
 
+## Misc notes
+* [Please __do not__ use `ldd` on untrusted binaries](https://jmmv.dev/2023/07/ldd-untrusted-binaries.html)
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
