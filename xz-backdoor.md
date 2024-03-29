@@ -1,4 +1,6 @@
-There's a lot we don't know.
+# FAQ on the xz-utils backdoor
+
+There's a lot we don't know. This is a living document - please treat it as such.
 
 ## Design
 * The backdoor has several components:
