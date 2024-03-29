@@ -4,8 +4,9 @@ There's a lot we don't know.
 * The backdoor has several components:
   - Malicious version of `build-to-host.m4` in the release dist tarballs.
   - Crafted test data in `tests/`
-    - tests/files/bad-3-corrupt_lzma2.xz (cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0, 74b138d2a6529f2c07729d7c77b1725a8e8b16f1)
-    - tests/files/good-large_compressed.lzma (cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0, 74b138d2a6529f2c07729d7c77b1725a8e8b16f1)
+    - tests/files/bad-3-corrupt_lzma2.xz ([cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0](https://github.com/tukaani-project/xz/commit/cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0), [74b138d2a6529f2c07729d7c77b1725a8e8b16f1](https://github.com/tukaani-project/xz/commit/74b138d2a6529f2c07729d7c77b1725a8e8b16f1))
+    - tests/files/good-large_compressed.lzma ([cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0](https://github.com/tukaani-project/xz/commit/cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0), [74b138d2a6529f2c07729d7c77b1725a8e8b16f1](https://github.com/tukaani-project/xz/commit/74b138d2a6529f2c07729d7c77b1725a8e8b16f1))
+  - Script called by `build-to-host.m4` after unpacking it from malicious test data which then modifies the build process.
   - IFUNC mechanism, which has legitimate purpose, but exploited to do runtime hooking/redirection
     of e.g. OpenSSH's authentication routines
 
