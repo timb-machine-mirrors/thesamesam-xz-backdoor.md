@@ -49,7 +49,7 @@ xz-utils has two maintainers:
 * Lasse Collin (_Larzhu_) who has maintained xz since the beginning, and before that, `lzma-utils`.
 * Jia Tan (_JiaT75_) who started contributing to xz in the last 2-2.5 years and gained commit access, and then release manager rights, about 1.5 years ago.
 
-Lasse regularly has internet breaks and is on one at the moment. We believe CISA may be trying to get in contact with him.
+Lasse regularly has internet breaks and is on one at the moment, started before this all kicked off. We believe CISA may be trying to get in contact with him.
 
 ## Acknowledgements
 
