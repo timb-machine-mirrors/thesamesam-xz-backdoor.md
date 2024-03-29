@@ -1,6 +1,6 @@
 There's a lot we don't know.
 
-## Backdoor
+## Design
 * The backdoor has several components:
   - Malicious version of `build-to-host.m4` in the release dist tarballs.
   - Crafted test data in `tests/`
@@ -33,6 +33,13 @@ There's a lot we don't know.
 * ... and whether it looks like a .deb or .rpm package is being built:
   > `if test -f "$srcdir/debian/rules" || test "x$RPM_ARCH" = "xx86_64";then`
 
+## Payload
+
+* The payload is only injected if the backdoor component of the build system, described above, triggered.
+* The runtime payload has __not__ been analysed in detail yet.
+* The payload definitely _at least_ does something if `argv[0] == /usr/bin/sshd`.
+* It might do something in other cases. **We don't know yet!**
+* It is known that if it is loaded in openssh's `sshd`, `RSA_public_decrypt` will be redirected into a malicious implementation to bypass authentication.
 
 ## Acknowledgements
 
