@@ -13,7 +13,8 @@ convenience.
 This backdoor is very indirect and only shows up when a few specific
 criteria are met. However, this backdoor is triggerable by remote
 unprivileged systems connecting to public SSH ports. This has been
-seen in the wild.
+seen in the wild where it gets activated by connections, but we do not
+know yet what is required to bypass authentication (etc) with it.
 
 TL;DR: We _think_ the following things need to be true for your system
 to be vulnerable:
