@@ -10,7 +10,7 @@ and initramfs images. It is very widely distributed, statistically
 your average Linux or macOS system will have it installed for
 convenience.
 
-This backdoor is very indirect and only shows up when a few specific
+This backdoor is very indirect and only shows up when a few _known_ specific
 criteria are met. However, this backdoor is _at least_ triggerable by remote
 unprivileged systems connecting to public SSH ports. This has been
 seen in the wild where it gets activated by connections - resulting in performance
