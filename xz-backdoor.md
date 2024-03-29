@@ -43,6 +43,7 @@ There's a lot we don't know. This is a living document - please treat it as such
 * It might do something in other cases. **We don't know yet!**
 * Vanilla upstream openssh isn't affected unless one of its few dependencies loads _liblzma_. We are not aware of any cases of this.
 * _Patched_ openssh for `systemd-notify` support _is_ affected if systemd is built with _lzma_ support, because `sshd` loads `libsystemd` which loads `liblzma`. Many distributions patch in this support.
+  * See https://github.com/openssh/openssh-portable/pull/375.
 * It is known that if it is loaded in openssh's `sshd`, `RSA_public_decrypt` will be redirected into a malicious implementation to bypass authentication.
 
 ## People
