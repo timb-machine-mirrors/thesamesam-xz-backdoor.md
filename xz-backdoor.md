@@ -148,7 +148,7 @@ are likely patching their systems too.
 
 xz-utils has two maintainers:
 
-* Lasse Collin (_Larzhu_) who has maintained xz since the beginning
+* Lasse Collin (_Larhzu_) who has maintained xz since the beginning
   (~2009), and before that, `lzma-utils`.
 * Jia Tan (_JiaT75_) who started contributing to xz in the last 2-2.5
   years and gained commit access, and then release manager rights,
