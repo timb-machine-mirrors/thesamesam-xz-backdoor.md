@@ -15,7 +15,7 @@ criteria are met. However, this backdoor is triggerable by remote
 unprivileged systems connecting to public SSH ports. This has been
 seen in the wild.
 
-TL;DR: We think the following things need to be true for your system
+TL;DR: We _think_ the following things need to be true for your system
 to be vulnerable:
 
 * You need to be running a rolling-release distro and updating
