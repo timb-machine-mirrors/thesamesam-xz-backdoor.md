@@ -41,6 +41,16 @@ There's a lot we don't know.
 * It might do something in other cases. **We don't know yet!**
 * It is known that if it is loaded in openssh's `sshd`, `RSA_public_decrypt` will be redirected into a malicious implementation to bypass authentication.
 
+## People
+
+I do not want to speculate on people in this document. It is for law enforcement to handle identifying those responsible.
+
+xz-utils has two maintainers:
+* Lasse Collin (_Larzhu_) who has maintained xz since the beginning, and before that, `lzma-utils`.
+* Jia Tan (_JiaT75_) who started contributing to xz in the last 2-2.5 years and gained commit access, and then release manager rights, about 1.5 years ago.
+
+Lasse regularly has internet breaks and is on one at the moment. We believe CISA may be trying to get in contact with him.
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
