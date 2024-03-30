@@ -180,6 +180,13 @@ to analyse the situation carefully.
 * [Please __do not__ use `ldd` on untrusted binaries](https://jmmv.dev/2023/07/ldd-untrusted-binaries.html)
   * [[PATCH] ldd: Do not recommend binutils as the safer option](https://lore.kernel.org/linux-man/20231016061923.105814-1-siddhesh@gotplt.org/t/#u)
 
+## Analysis of the payload
+
+This is the part which is very much in flux, even compared to the rest of this. It's early days yet.
+
+* https://gynvael.coldwind.pl/?lang=en&id=782
+* https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
@@ -192,4 +199,3 @@ to analyse the situation carefully.
 * https://www.openwall.com/lists/oss-security/2024/03/29/4
 * https://boehs.org/node/everything-i-know-about-the-xz-backdoor
 * https://tukaani.org/xz-backdoor/
-* https://gynvael.coldwind.pl/?lang=en&id=782
