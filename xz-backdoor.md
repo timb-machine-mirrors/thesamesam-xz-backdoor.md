@@ -16,7 +16,7 @@ triggerable by remote unprivileged systems connecting to public SSH ports. This 
 seen in the wild where it gets activated by connections - resulting in performance
 issues, but we do not know yet what is required to bypass authentication (etc) with it.
 
-TL;DR: We're reasonably sure the following things need to be true for your system
+We're reasonably sure the following things need to be true for your system
 to be vulnerable:
 
 * You need to be running a distro that uses glibc (for IFUNC)
