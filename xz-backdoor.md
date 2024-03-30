@@ -136,8 +136,9 @@ things we know:
 * We don't know what the payload is intended to do. We are
   investigating.
 * Vanilla upstream OpenSSH isn't affected unless one of its
-  dependencies links `liblzma`. We are not aware of any cases of this
-  in practical production systems.
+  dependencies links `liblzma`.
+  * _Update_: Lennart Poettering (via @Foxboron) [mentions](https://news.ycombinator.com/item?id=39867126) that it may happen
+  via pam->libselinux->liblzma, and possibly in other cases too.
 * The payload is loaded into `sshd` indirectly. `sshd` is often patched
   to support
   [systemd-notify](https://www.freedesktop.org/software/systemd/man/249/systemd-notify.html)
