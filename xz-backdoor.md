@@ -21,9 +21,13 @@ to be vulnerable:
 
 * You need to be running a rolling-release distro and updating
   religiously
-* You need to be running a distro that uses glibc and systemd
+* You need to be running a distro that uses glibc (for IFUNC)
 * You need to have versions 5.6.0 or 5.6.1 of xz or liblzma installed
   (xz-utils provides the library liblzma)
+
+We know that the combination of *systemd* and *patched openssh* are
+vulnerable but pending further analysis of the payload, we cannot
+be certain that other configurations aren't.
 
 If you're also running a publicly accessible `sshd`, then you are
 likely vulnerable. If you aren't, it is unknown for now, but you should
