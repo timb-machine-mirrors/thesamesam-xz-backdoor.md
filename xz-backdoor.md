@@ -191,3 +191,4 @@ to analyse the situation carefully.
 * https://lwn.net/Articles/967180/
 * https://www.openwall.com/lists/oss-security/2024/03/29/4
 * https://boehs.org/node/everything-i-know-about-the-xz-backdoor
+* https://tukaani.org/xz-backdoor/
