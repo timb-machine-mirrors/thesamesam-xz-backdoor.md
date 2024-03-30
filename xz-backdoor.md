@@ -170,8 +170,11 @@ xz-utils has two maintainers:
   about 1.5 years ago.
 
 Lasse regularly has internet breaks and is on one at the moment,
-started before this all kicked off. We believe CISA may be trying to
-get in contact with him.
+started before this all kicked off. He has posted an update
+at https://tukaani.org/xz-backdoor/ and is working with the community.
+
+Please be patient with him as he gets up to speed and takes time
+to analyse the situation carefully.
 
 ## Misc notes
 * [Please __do not__ use `ldd` on untrusted binaries](https://jmmv.dev/2023/07/ldd-untrusted-binaries.html)
