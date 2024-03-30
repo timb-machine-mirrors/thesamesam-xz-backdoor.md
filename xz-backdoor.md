@@ -31,9 +31,11 @@ be certain that other configurations aren't.
 While not scaremongering, it is important to be clear that **at this stage,
 we got lucky, and there may well be other effects of the infected liblzma**.
 
-If you're also running a publicly accessible `sshd`, then you are
-likely vulnerable. If you aren't, it is unknown for now, but you should
-update as quickly as possible because investigations are continuing.
+If you're running a publicly accessible `sshd`, then you are - as a rule
+of thumb for those not wanting to read the rest here - likely vulnerable.
+
+If you aren't, it is unknown for now, but you should update as quickly as possible
+because investigations are continuing.
 
 TL:DR:
 * Using a `.deb` or `.rpm` based distro with glibc and xz-5.6.0 or xz-5.6.1:
