@@ -114,12 +114,12 @@ If those conditions check, the payload is injected into the source
 tree. We have not analyzed this payload in detail. Here are the main
 things we know:
 
-* The payload only activates if the running program has the process
-  name `/usr/sbin/sshd`. This means that systems that put `sshd` in
-  `/usr/bin` or another folder are not vulnerable. This further
-  suspects targeting systemd systems due to their
-  [usrmerge](https://wiki.debian.org/UsrMerge) initiative putting all
-  binaries in `/usr/bin`.
+* The payload activates if the running program has the process
+  name `/usr/sbin/sshd`. Systems that put `sshd` in
+  `/usr/bin` or another folder may or may not be vulnerable. This further
+  suspects targeting systemd systems due to their [usrmerge](https://wiki.debian.org/UsrMerge)
+  initiative putting all binaries in `/usr/bin`.
+* It may activate in other scenarios too, possibly even unrelated to ssh.
 * We don't know what the payload is intended to do. We are
   investigating.
 * Vanilla upstream OpenSSH isn't affected unless one of its
