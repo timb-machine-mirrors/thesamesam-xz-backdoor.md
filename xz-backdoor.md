@@ -261,10 +261,10 @@ This is the part which is very much in flux, even compared to the rest of this. 
 There are concerns some other projects are affected (either by themselves or changes to other projects were made to facilitate the xz backdoor). I want to avoid a witch-hunt but listing some examples here which are already been linked widely to give some commentary.
 
 * libarchive is being checked out:
-  ** https://github.com/libarchive/libarchive/issues/2103 coordinates the review effort
-  ** https://github.com/libarchive/libarchive/pull/1609 was made by Jia Tan
-  *** After review, https://github.com/libarchive/libarchive/pull/2101 was made by libarchive maintainers.
-  *** It doesn't appear exploitable but the change in https://github.com/libarchive/libarchive/pull/2101 was made out of caution.
+  * https://github.com/libarchive/libarchive/issues/2103 coordinates the review effort
+  * https://github.com/libarchive/libarchive/pull/1609 was made by Jia Tan
+    * After review, https://github.com/libarchive/libarchive/pull/2101 was made by libarchive maintainers.
+    * It doesn't appear exploitable but the change in https://github.com/libarchive/libarchive/pull/2101 was made out of caution.
 
 * https://github.com/google/oss-fuzz/pull/10667 was made by Jia Tan to disable IFUNC in oss-fuzz when testing xz-utils
   * It is unclear if this was safe or not. Obviously, it doesn't look great, but see below.
