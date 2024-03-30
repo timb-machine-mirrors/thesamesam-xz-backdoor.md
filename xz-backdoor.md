@@ -138,6 +138,7 @@ things we know:
 * Vanilla upstream OpenSSH isn't affected unless one of its
   dependencies links `liblzma`.
   <!-- Commented out because I can't actually see where this comes from yet. -->
+  <!-- TODO: Seen someone mention it might happen via pam_fprintd? -->
   <!-- * _Update_: Lennart Poettering (via @Foxboron) [mentions](https://news.ycombinator.com/item?id=39867126) that it may happen
   via pam->libselinux->liblzma, and possibly in other cases too. -->
 * The payload is loaded into `sshd` indirectly. `sshd` is often patched
