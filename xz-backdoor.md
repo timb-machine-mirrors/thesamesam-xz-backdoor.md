@@ -263,8 +263,8 @@ There are concerns some other projects are affected (either by themselves or cha
   * It doesn't appear exploitable but the change in https://github.com/libarchive/libarchive/pull/2101 was made out of caution.
 
 * https://github.com/google/oss-fuzz/pull/10667 was made by Jia Tan to disable IFUNC in oss-fuzz when testing xz-utils
-  * It is unclear if this was safe or not.
-  * Note that IFUNC _is_ a brittle mechanism and it is known to be sensitive to e.g. ASAN, which is why the change didn't   raise alarm bells.
+  * It is unclear if this was safe or not. Obviously, it doesn't look great, but see below.
+  * Note that IFUNC _is_ a brittle mechanism and it is known to be sensitive to e.g. ASAN, which is why the change didn't   raise alarm bells. i.e. It is possible that such a change was genuinely made in good faith, although it's of course suspicious in hindsight. But I wouldn't say the oss-fuzz maintainers should have rejected it, either.
 
 ## Acknowledgements
 
