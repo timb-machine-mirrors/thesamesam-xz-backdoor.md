@@ -184,8 +184,8 @@ to analyse the situation carefully.
 
 This is the part which is very much in flux, even compared to the rest of this. It's early days yet.
 
-* https://gynvael.coldwind.pl/?lang=en&id=782
-* https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b
+* [xz/liblzma: Bash-stage Obfuscation Explained by gynvael](https://gynvael.coldwind.pl/?lang=en&id=782)
+* [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
 
 ## Acknowledgements
 
