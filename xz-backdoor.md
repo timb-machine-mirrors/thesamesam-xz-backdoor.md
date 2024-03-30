@@ -33,9 +33,11 @@ likely vulnerable. If you aren't, it is unknown for now, but you should
 update as quickly as possible because investigations are continuing.
 
 TL:DR:
-* .deb or .rpm based distro + glibc + xz-5.6.0 or 5.6.1 and systemd on publicly accessible ssh => update RIGHT NOW NOW NOW
-* .deb or rpm based distro + glibc + xz-5.6.0 or 5.6.1 otherwise => update RIGHT NOW NOW but prioritize the first type
-* glibc + xz-5.6.0 or 5.6.1 otherwise => update RIGHT NOW
+* Using a `.deb` or `.rpm` based distro with glibc and xz-5.6.0 or xz-5.6.1:
+  * Using systemd on publicly accessible ssh: update RIGHT NOW NOW NOW
+  * Otherwise: update RIGHT NOW NOW but prioritize the former
+* Using another type of distribution:
+  * With glibc and xz-5.6.0 or xz-5.6.1: update RIGHT NOW, but prioritize the above.
 
 If all of these are the case, please update your systems to mitigate
 this threat. For more information about affected systems and how to
