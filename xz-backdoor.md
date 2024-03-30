@@ -92,8 +92,8 @@ execute a script during the build process.
 
 This script (at least in versions 5.6.0 and 5.6.1) checks for various
 conditions like the architecture of the machine. Here is a snippet of
-the malicious version of `build-to-host.m4` and an explanation of what
-it does:
+the malicious script that gets unpacked by `build-to-host.m4` and an
+explanation of what it does:
 
 >```if ! (echo "$build" | grep -Eq "^x86_64" > /dev/null 2>&1) && (echo "$build" | grep -Eq "linux-gnu$" > /dev/null 2>&1);then```
 
