@@ -28,6 +28,9 @@ We know that the combination of *systemd* and *patched openssh* are
 vulnerable but pending further analysis of the payload, we cannot
 be certain that other configurations aren't.
 
+While not scaremongering, it is important to be clear that **at this stage,
+we got lucky, and there may well be other effects of the infected liblzma**.
+
 If you're also running a publicly accessible `sshd`, then you are
 likely vulnerable. If you aren't, it is unknown for now, but you should
 update as quickly as possible because investigations are continuing.
