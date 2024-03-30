@@ -254,6 +254,18 @@ This is the part which is very much in flux, even compared to the rest of this. 
 * [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
 * [XZ Backdoor Analysis by @smx-smx (WIP)](https://gist.github.com/smx-smx/a6112d54777845d389bd7126d6e9f504) 
 
+## Other projects
+
+There are concerns some other projects are affected (either by themselves or changes to other projects were made to facilitate the xz backdoor). I want to avoid a witch-hunt but listing some examples here which are already been linked widely to give some commentary.
+
+* https://github.com/libarchive/libarchive/pull/1609 was made by Jia Tan
+  * After review, https://github.com/libarchive/libarchive/pull/2101 was made by libarchive maintainers.
+  * It doesn't appear exploitable but the change in https://github.com/libarchive/libarchive/pull/2101 was made out of caution.
+
+* https://github.com/google/oss-fuzz/pull/10667 was made by Jia Tan to disable IFUNC in oss-fuzz when testing xz-utils
+  * It is unclear if this was safe or not.
+  * Note that IFUNC _is_ a brittle mechanism and it is known to be sensitive to e.g. ASAN, which is why the change didn't   raise alarm bells.
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
