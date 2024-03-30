@@ -19,11 +19,10 @@ issues, but we do not know yet what is required to bypass authentication (etc) w
 TL;DR: We're reasonably sure the following things need to be true for your system
 to be vulnerable:
 
-* You need to be running a rolling-release distro and updating
-  religiously
 * You need to be running a distro that uses glibc (for IFUNC)
 * You need to have versions 5.6.0 or 5.6.1 of xz or liblzma installed
-  (xz-utils provides the library liblzma)
+  (xz-utils provides the library liblzma) - likely only true if 
+  running a rolling-release distro and updating religiously.
 
 We know that the combination of *systemd* and *patched openssh* are
 vulnerable but pending further analysis of the payload, we cannot
