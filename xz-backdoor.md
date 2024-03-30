@@ -131,9 +131,7 @@ things we know:
 
 * The payload activates if the running program has the process
   name `/usr/sbin/sshd`. Systems that put `sshd` in
-  `/usr/bin` or another folder may or may not be vulnerable. This further
-  suspects targeting systemd systems due to their [usrmerge](https://wiki.debian.org/UsrMerge)
-  initiative putting all binaries in `/usr/bin`.
+  `/usr/bin` or another folder may or may not be vulnerable.
 * It may activate in other scenarios too, possibly even unrelated to ssh.
 * We don't know what the payload is intended to do. We are
   investigating.
