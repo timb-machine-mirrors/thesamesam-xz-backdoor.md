@@ -32,6 +32,11 @@ If you're also running a publicly accessible `sshd`, then you are
 likely vulnerable. If you aren't, it is unknown for now, but you should
 update as quickly as possible because investigations are continuing.
 
+TL:DR:
+* .deb or .rpm based distro + glibc + xz-5.6.0 or 5.6.1 and systemd on publicly accessible ssh => update RIGHT NOW NOW NOW
+* .deb or rpm based distro + glibc + xz-5.6.0 or 5.6.1 otherwise => update RIGHT NOW NOW but prioritize the first type
+* glibc + xz-5.6.0 or 5.6.1 otherwise => update RIGHT NOW
+
 If all of these are the case, please update your systems to mitigate
 this threat. For more information about affected systems and how to
 update, please see [this
