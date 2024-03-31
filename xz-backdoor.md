@@ -288,6 +288,7 @@ There are concerns some other projects are affected (either by themselves or cha
 
 Anyone can and should work on these. I'm just listing them so people have a rough idea of what's left.
 
+* **Ensuring Lasse Collin and xz-utils is supported**, even long after the fervour is over
 * Reverse engineering the payload (it's still fairly early days here on this)
 * Auditing all possibly-tainted xz-utils commits
 * Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
