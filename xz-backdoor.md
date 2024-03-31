@@ -302,3 +302,4 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * https://www.openwall.com/lists/oss-security/2024/03/29/4
 * https://boehs.org/node/everything-i-know-about-the-xz-backdoor
 * https://tukaani.org/xz-backdoor/
+* https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
