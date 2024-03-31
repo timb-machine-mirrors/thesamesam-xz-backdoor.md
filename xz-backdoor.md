@@ -217,8 +217,9 @@ things we know:
 * If this payload is loaded in openssh `sshd`, the
   `RSA_public_decrypt` function will be redirected into a malicious
   implementation. We have observed that this malicious implementation
-  can be used to bypass authentication. Further research is being done
-  to explain why.
+  can be used to bypass authentication. ~Further research is being done
+  to explain why.~
+    * Filippo Valsorda has shared [analysis](https://bsky.app/profile/filippo.abyssdomain.expert/post/3kowjkx2njy2b) indicating that the attacker must supply a key which is verified by the payload and then attacker input is passed to `system()`, giving remote code execution (RCE).
 
 ## People
 
