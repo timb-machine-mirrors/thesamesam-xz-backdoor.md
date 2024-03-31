@@ -281,6 +281,8 @@ There are concerns some other projects are affected (either by themselves or cha
 
 * Mention the CMake landlock thing
 * Add a table of releases + signer?
+* Include the injection script after the macro
+* Mention detection?
 
 ## TODO overall
 
