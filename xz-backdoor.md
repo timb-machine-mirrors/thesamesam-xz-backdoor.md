@@ -277,6 +277,22 @@ There are concerns some other projects are affected (either by themselves or cha
 * All the hard-working security teams helping to coordinate a response and push out fixes.
 * Xe Iaso who resummarized this page for readability.
 
+## TODO for this doc
+
+* Mention the CMake landlock thing
+* Add a table of releases + signer?
+
+## TODO overall
+
+Anyone can and should work on these. I'm just listing them so people have a rough idea of what's left.
+
+* Reverse engineering the payload (it's still fairly early days here on this)
+* Auditing all possibly-tainted xz-utils commits
+* Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
+  * (Pretty confident some exist, others have mentioned libselinux & pam but I've not checked it yet.)
+* Checking other projects for similar injection mechanisms (e.g. similar build system lines)
+* ??? 
+
 ## References
 
 * https://lwn.net/Articles/967180/
