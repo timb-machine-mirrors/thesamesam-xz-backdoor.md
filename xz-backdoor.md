@@ -296,7 +296,6 @@ This is for suggesting specific changes which are being considered as a result o
 * systemd: [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
   * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Solar Designer [suggested](https://openwall.com/lists/oss-security/2024/03/31/9) this _may_ have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release. (I saw this mentioned in a few places, IIRC.)
 
-
 ## Discussions in the wake of this
 
 This is for linking to interesting general discussions, rather than specific changes being suggested (see above).
