@@ -329,7 +329,7 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * Checking other projects for similar injection mechanisms (e.g. similar build system lines)
 * ??? 
 
-## References
+## References and other reading material
 
 * https://lwn.net/Articles/967180/
 * https://www.openwall.com/lists/oss-security/2024/03/29/4
