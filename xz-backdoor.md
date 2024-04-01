@@ -285,6 +285,8 @@ There are concerns some other projects are affected (either by themselves or cha
 * [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
   * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Solar Designer [suggested](https://openwall.com/lists/oss-security/2024/03/31/9) this _may_ have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release. (I saw this mentioned in a few places, IIRC.)
 
+* [Three steps we could take to make supply chain attacks a bit harder - fedora-devel](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/YWMNOEJ34Q7QLBWQAB5TM6A2SVJFU4RV/)
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
