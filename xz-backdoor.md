@@ -269,6 +269,7 @@ This is the part which is very much in flux, even compared to the rest of this. 
 * [xz backdoor documentation wiki by @Midar et. al](https://github.com/Midar/xz-backdoor-documentation/wiki)
 * [modify_ssh_rsa_pubkey.py by @keeganryan](https://gist.github.com/keeganryan/a6c22e1045e67c17e88a606dfdf95ae4) - script to trigger more parts of the payload in a compromised `sshd`
 * [xz-malware](https://github.com/karcherm/xz-malware)
+* [xz-backdoor](https://github.com/hamarituc/xz-backdoor)
 
 ## Other projects
 
