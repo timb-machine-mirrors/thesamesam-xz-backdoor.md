@@ -224,6 +224,11 @@ things we know:
   to explain why.~
     * Filippo Valsorda has shared [analysis](https://bsky.app/profile/filippo.abyssdomain.expert/post/3kowjkx2njy2b) indicating that the attacker must supply a key which is verified by the payload and then attacker input is passed to `system()`, giving remote code execution (RCE).
 
+## Tangential xz bits
+
+* Jia Tan's [328c52da8a2bbb81307644efdb58db2c422d9ba7](https://git.tukaani.org/?p=xz.git;a=commitdiff;h=328c52da8a2bbb81307644efdb58db2c422d9ba7) commit contained a `.` in the CMake check for landlock sandboxing support. This caused the check to always fail so landlock support was detected as absent.
+  * Hardening of CMake's `check_c_source_compiles` has been proposed (see _Other projects_).
+
 ## People
 
 We do not want to speculate on the people behind this project in this
@@ -296,7 +301,6 @@ There are concerns some other projects are affected (either by themselves or cha
 
 ## TODO for this doc
 
-* Mention the CMake landlock thing
 * Add a table of releases + signer?
 * Include the injection script after the macro
 * Mention detection?
