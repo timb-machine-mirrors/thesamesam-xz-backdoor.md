@@ -309,7 +309,7 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * Reverse engineering the payload (it's still fairly early days here on this)
 * Auditing all possibly-tainted xz-utils commits
 * Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
-  * (Pretty confident some exist, others have mentioned libselinux & pam but I've not checked it yet.)
+  * _Update_: The PAM route is totally bunk (too late) and the libselinux thing was a downstream-only patch (TODO: write about this).
 * Checking other projects for similar injection mechanisms (e.g. similar build system lines)
 * ??? 
 
