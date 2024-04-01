@@ -273,6 +273,14 @@ There are concerns some other projects are affected (either by themselves or cha
   * It is unclear if this was safe or not. Obviously, it doesn't look great, but see below.
   * Note that IFUNC _is_ a brittle mechanism and it is known to be sensitive to e.g. ASAN, which is why the change didn't raise alarm bells. i.e. It is possible that such a change was genuinely made in good faith, although it's of course suspicious in hindsight. But I wouldn't say the oss-fuzz maintainers should have rejected it, either.
 
+## Tangential efforts as a result of this incident
+
+<!-- TODO: Mention the CMake bit elsewhere as well first? -->
+<!-- * https://gitlab.kitware.com/cmake/cmake/-/issues/25846 -->
+
+<!-- TODO: explain -->
+* https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
