@@ -1,5 +1,14 @@
 # FAQ on the xz-utils backdoor
 
+This is still a new situation. There is a lot we don't know. We don't
+know if there are more possible exploit paths. We only know about this
+one path. Please update your systems regardless. Unknown unknowns are
+safer than known unknowns.
+
+This is a living document. Everything in this document is made in good
+faith of being accurate, but like I just said; we don't know much
+about what's going on.
+
 ## Background
 
 On March 29th, 2024, a backdoor was discovered in
@@ -49,15 +58,6 @@ this threat. For more information about affected systems and how to
 update, please see [this
 article](https://xeiaso.net/notes/2024/xz-vuln/) or check the
 [xz-utils page on Repology](https://repology.org/project/xz/versions).
-
-This is still a new situation. There is a lot we don't know. We don't
-know if there are more possible exploit paths. We only know about this
-one path. Please update your systems regardless. Unknown unknowns are
-safer than known unknowns.
-
-This is a living document. Everything in this document is made in good
-faith of being accurate, but like I just said; we don't know much
-about what's going on.
 
 This is not a fault of sshd, systemd, or glibc, that is just how it
 was made exploitable.
