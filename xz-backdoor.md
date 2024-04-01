@@ -231,13 +231,14 @@ document. This is not a productive use of our time, and law
 enforcement will be able to handle identifying those responsible. They
 are likely patching their systems too.
 
-xz-utils has two maintainers:
+xz-utils had two maintainers:
 
 * Lasse Collin (_Larhzu_) who has maintained xz since the beginning
   (~2009), and before that, `lzma-utils`.
 * Jia Tan (_JiaT75_) who started contributing to xz in the last 2-2.5
   years and gained commit access, and then release manager rights,
-  about 1.5 years ago.
+  about 1.5 years ago. He was removed on 2024-03-31 as Lasse begins
+  his long work ahead.
 
 Lasse regularly has internet breaks and is on one at the moment,
 started before this all kicked off. He has posted an update
