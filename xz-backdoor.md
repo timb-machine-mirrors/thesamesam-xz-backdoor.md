@@ -281,7 +281,7 @@ There are concerns some other projects are affected (either by themselves or cha
 <!-- TODO: explain -->
 * [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.htm)
 
-* [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues)
+* [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
 
 ## Acknowledgements
 
