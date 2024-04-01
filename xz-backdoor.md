@@ -279,7 +279,6 @@ There are concerns some other projects are affected (either by themselves or cha
 
 * CMake: [Consider hardening check_c_source_compiles](https://gitlab.kitware.com/cmake/cmake/-/issues/25846) - [MR](https://gitlab.kitware.com/cmake/cmake/-/merge_requests/9391)
 
-<!-- TODO: explain? -->
 * bug-autoconf: [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html)
 * systemd: [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
   * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Solar Designer [suggested](https://openwall.com/lists/oss-security/2024/03/31/9) this _may_ have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release. (I saw this mentioned in a few places, IIRC.)
@@ -299,6 +298,7 @@ There are concerns some other projects are affected (either by themselves or cha
 * Add a table of releases + signer?
 * Include the injection script after the macro
 * Mention detection?
+* Explain the bug-autoconf thing maybe wrt serial
 
 ## TODO overall
 
