@@ -203,9 +203,8 @@ things we know:
 * Vanilla upstream OpenSSH isn't affected unless one of its
   dependencies links `liblzma`.
   * Lennart Poettering had [mentioned](https://news.ycombinator.com/item?id=39867126) that it may happen
-  via pam->libselinux->liblzma, and possibly in other cases too, but I have not yet seen a path
-  for this to happen.
-  * libselinux does not link to liblzma.
+  via pam->libselinux->liblzma, and possibly in other cases too, but...
+  * libselinux does not link to liblzma. It turns out the confusion was because of an old downstream-only patch in Fedora and a stale dependency in the RPM spec which persisted long-beyond its removal.
   * PAM modules are loaded too late in the process AFAIK for this to work (another possible example was pam_fprintd). Solar Designer [raised this issue](https://openwall.com/lists/oss-security/2024/03/31/9) as well on oss-security.
   
 * The payload is loaded into `sshd` indirectly. `sshd` is often patched
