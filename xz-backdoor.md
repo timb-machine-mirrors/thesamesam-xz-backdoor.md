@@ -313,14 +313,16 @@ This is for linking to interesting general discussions, rather than specific cha
 * Xe Iaso who resummarized this page for readability.
 * Everybody who has provided me tips privately, in #tukaani, or in comments on this gist.
 
-## TODO for this doc
+## Meta
+
+### TODO for this doc
 
 * Add a table of releases + signer?
 * Include the injection script after the macro
 * Mention detection?
 * Explain the bug-autoconf thing maybe wrt serial
 
-## TODO overall
+### TODO overall
 
 Anyone can and should work on these. I'm just listing them so people have a rough idea of what's left.
 
