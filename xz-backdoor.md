@@ -274,6 +274,10 @@ There are concerns some other projects are affected (either by themselves or cha
 * https://github.com/google/oss-fuzz/pull/10667 was made by Jia Tan to disable IFUNC in oss-fuzz when testing xz-utils
   * It is unclear if this was safe or not. Obviously, it doesn't look great, but see below.
   * Note that IFUNC _is_ a brittle mechanism and it is known to be sensitive to e.g. ASAN, which is why the change didn't raise alarm bells. i.e. It is possible that such a change was genuinely made in good faith, although it's of course suspicious in hindsight. But I wouldn't say the oss-fuzz maintainers should have rejected it, either.
+    * gcc [PR70082](https://gcc.gnu.org/PR70082)
+    * gcc [PR87482](https://gcc.gnu.org/PR87482)
+    * gcc [PR110442](https://gcc.gnu.org/PR110442)
+    * gcc [PR114115](https://gcc.gnu.org/PR114115) - a real bug which xz found(!)
 
 ## Tangential efforts as a result of this incident
 
