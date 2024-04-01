@@ -5,7 +5,7 @@ know if there are more possible exploit paths. We only know about this
 one path. Please update your systems regardless.
 
 This is a living document. Everything in this document is made in good
-faith of being accurate, but like I just said; we don't know much
+faith of being accurate, but like I just said; we don't yet know enough
 about what's going on.
 
 ## Background
