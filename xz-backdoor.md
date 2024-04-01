@@ -290,7 +290,7 @@ There are concerns some other projects are affected (either by themselves or cha
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
 * All the hard-working security teams helping to coordinate a response and push out fixes.
 * Xe Iaso who resummarized this page for readability.
-* Everybody who has provided me tips privately or in the comments on this gist.
+* Everybody who has provided me tips privately, in #tukaani, or in comments on this gist.
 
 ## TODO for this doc
 
