@@ -276,15 +276,14 @@ There are concerns some other projects are affected (either by themselves or cha
 
 ## Tangential efforts as a result of this incident
 
-<!-- TODO: Mention the CMake bit elsewhere as well first? -->
-<!-- * https://gitlab.kitware.com/cmake/cmake/-/issues/25846 -->
+* CMake: [Consider hardening check_c_source_compiles](https://gitlab.kitware.com/cmake/cmake/-/issues/25846) - [MR](https://gitlab.kitware.com/cmake/cmake/-/merge_requests/9391)
 
 <!-- TODO: explain? -->
-* [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html)
-* [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
+* bug-autoconf: [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html)
+* systemd: [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
   * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Solar Designer [suggested](https://openwall.com/lists/oss-security/2024/03/31/9) this _may_ have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release. (I saw this mentioned in a few places, IIRC.)
 
-* [Three steps we could take to make supply chain attacks a bit harder - fedora-devel](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/YWMNOEJ34Q7QLBWQAB5TM6A2SVJFU4RV/)
+* fedora-devel: [Three steps we could take to make supply chain attacks a bit harder](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/YWMNOEJ34Q7QLBWQAB5TM6A2SVJFU4RV/)
 
 ## Acknowledgements
 
