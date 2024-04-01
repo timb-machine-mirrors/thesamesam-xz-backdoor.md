@@ -315,6 +315,12 @@ This is for linking to interesting general discussions, rather than specific cha
 
 ## Meta
 
+### Response to questions
+
+* A few people have asked why Jia Tan followed me (@thesamesam) on GitHub. #tukaani was a small community on IRC before this kicked off. I've been in #tukaani for a few years now. When the move from self-hosted infra to github was being planned and implemented, I was around and starred & followed the new Tukaani org pretty quickly.
+
+* I'm referenced in one of the [commits]([72d2933bfae514e0dbb123488e9f1eb7cf64175f](https://git.tukaani.org/?p=xz.git;a=commit;h=72d2933bfae514e0dbb123488e9f1eb7cf64175f)) in the original oss-security post that works around noise from the IFUNC resolver. This was a legitimate issue which applies to IFUNC resolvers in general. The GCC bug it led to ([PR114115](https://gcc.gnu.org/PR114115) remains open and has a patch pending from a GCC developer.
+
 ### TODO for this doc
 
 * Add a table of releases + signer?
