@@ -214,6 +214,8 @@ things we know:
   is not the fault of systemd, this is more unfortunate. The patch
   that most distributions use is available here:
   [openssh/openssh-portable#375](https://github.com/openssh/openssh-portable/pull/375).
+  * _Update_: The OpenSSH developers are looking at adding [non-library integration](https://bugzilla.mindrot.org/show_bug.cgi?id=2641#c13) of the systemd-notify protocol which would mean distributions would no longer be patching in `libsystemd` support.
+  
 * If this payload is loaded in openssh `sshd`, the
   `RSA_public_decrypt` function will be redirected into a malicious
   implementation. We have observed that this malicious implementation
