@@ -281,7 +281,7 @@ There are concerns some other projects are affected (either by themselves or cha
 <!-- TODO: explain -->
 * [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html)
 * [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
-  * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Some have speculated this may have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release.
+  * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Solar Designer [suggested](https://openwall.com/lists/oss-security/2024/03/31/9) this _may_ have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release. (I saw this mentioned in a few places, IIRC.)
 
 ## Acknowledgements
 
