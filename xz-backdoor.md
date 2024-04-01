@@ -279,7 +279,9 @@ There are concerns some other projects are affected (either by themselves or cha
 <!-- * https://gitlab.kitware.com/cmake/cmake/-/issues/25846 -->
 
 <!-- TODO: explain -->
-* https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html
+* [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.htm)
+
+* [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues)
 
 ## Acknowledgements
 
