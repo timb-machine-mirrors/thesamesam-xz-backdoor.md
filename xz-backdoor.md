@@ -229,6 +229,9 @@ things we know:
 * Jia Tan's [328c52da8a2bbb81307644efdb58db2c422d9ba7](https://git.tukaani.org/?p=xz.git;a=commitdiff;h=328c52da8a2bbb81307644efdb58db2c422d9ba7) commit contained a `.` in the CMake check for landlock sandboxing support. This caused the check to always fail so landlock support was detected as absent.
   * Hardening of CMake's `check_c_source_compiles` has been proposed (see _Other projects_).
 
+* IFUNC was introduced for _crc64_ in [ee44863ae88e377a5df10db007ba9bfadde3d314](https://git.tukaani.org/?p=xz.git;a=commit;h=ee44863ae88e377a5df10db007ba9bfadde3d314) by _Hans Jensen_.
+  * _Hans Jensen_ later went on to ask Debian to update xz-utils in https://bugs.debian.org/1067708, but this is quite a common thing for eager users to do, so it's not necessarily nefarious.
+
 ## People
 
 We do not want to speculate on the people behind this project in this
