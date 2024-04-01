@@ -296,6 +296,8 @@ This is for suggesting specific changes which are being considered as a result o
 * systemd: [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
   * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. Solar Designer [suggested](https://openwall.com/lists/oss-security/2024/03/31/9) this _may_ have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release. (I saw this mentioned in a few places, IIRC.)
 * groff: [[PATCH] Distribute bootstrap and bootstrap.conf](https://lists.gnu.org/archive/html/groff/2024-03/msg00211.html)
+* GNU binutils: [Remove dependency on libjansson](https://inbox.sourceware.org/binutils/CACKH++ZCwhA9n9GfsWPmBQgsSrvfeOpLha0=UCpHzPDD8vQpNQ@mail.gmail.com/T/#u)
+  * This is being proposed by @rui314, the maintainer of mold. Rui also wrote about the risks to linkers in https://x.com/rui314/status/1774286434335338965.
 
 ## Discussions in the wake of this
 
