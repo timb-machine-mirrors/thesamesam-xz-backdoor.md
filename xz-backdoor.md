@@ -346,7 +346,8 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
   * This is already partly done and it looks like none exist, but it would be nice to be sure.
 * Checking other projects for similar injection mechanisms (e.g. similar build system lines)
-* ??? 
+* Diff and review all "golden" upstream tarballs used by distros against the output of creating a tarball from the git tag for all packages.
+* ???
 
 ## References and other reading material
 
