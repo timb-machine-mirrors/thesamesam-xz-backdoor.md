@@ -270,7 +270,7 @@ This is the part which is very much in flux, even compared to the rest of this. 
 * [modify_ssh_rsa_pubkey.py](https://gist.github.com/keeganryan/a6c22e1045e67c17e88a606dfdf95ae4) - script to trigger more parts of the payload in a compromised `sshd` by @keeganryan
 * [xz-malware](https://github.com/karcherm/xz-malware) by @karcherm
 * [xz-backdoor](https://github.com/hamarituc/xz-backdoor) by @hamarituc
-* [xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems
+* [xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems. This contains binary patching for the key!
 
 ## Other projects
 
