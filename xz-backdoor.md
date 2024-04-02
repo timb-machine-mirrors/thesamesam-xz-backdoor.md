@@ -273,6 +273,7 @@ This is the part which is very much in flux, even compared to the rest of this. 
 * [xz-malware](https://github.com/karcherm/xz-malware) by @karcherm
 * [xz-backdoor](https://github.com/hamarituc/xz-backdoor) by @hamarituc
 * [xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems. This contains binary patching for the key!
+* [XZ Backdoor Extract](https://github.com/0xlane/xz-cve-2024-3094) by @0xlane
 
 ## Other projects
 
