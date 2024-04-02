@@ -197,8 +197,9 @@ things we know:
   name `/usr/sbin/sshd`. Systems that put `sshd` in
   `/usr/bin` or another folder may or may not be vulnerable.
 * It may activate in other scenarios too, possibly even unrelated to ssh.
-* We don't know what the payload is intended to do. We are
+* We don't entirely know the payload is intended to do. We are
   investigating.
+* _Update_: Successful exploitation does not generate any log entries.
 * Vanilla upstream OpenSSH isn't affected unless one of its
   dependencies links `liblzma`.
   * Lennart Poettering had [mentioned](https://news.ycombinator.com/item?id=39867126) that it may happen
