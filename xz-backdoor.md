@@ -264,11 +264,12 @@ This is the part which is very much in flux, even compared to the rest of this. 
 
 * [xz/liblzma: Bash-stage Obfuscation Explained by @gynvael](https://gynvael.coldwind.pl/?lang=en&id=782)
 * [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
-* [XZ Backdoor Analysis by @smx-smx (WIP)](https://gist.github.com/smx-smx/a6112d54777845d389bd7126d6e9f504) 
-* [xz backdoor documentation wiki by @Midar et. al](https://github.com/Midar/xz-backdoor-documentation/wiki)
-* [modify_ssh_rsa_pubkey.py by @keeganryan](https://gist.github.com/keeganryan/a6c22e1045e67c17e88a606dfdf95ae4) - script to trigger more parts of the payload in a compromised `sshd`
-* [xz-malware](https://github.com/karcherm/xz-malware)
-* [xz-backdoor](https://github.com/hamarituc/xz-backdoor)
+* [XZ Backdoor Analysis (WIP)](https://gist.github.com/smx-smx/a6112d54777845d389bd7126d6e9f504) by @smx-smx
+* [xz backdoor documentation wiki](https://github.com/Midar/xz-backdoor-documentation/wiki) by @Midar et. al
+* [modify_ssh_rsa_pubkey.py](https://gist.github.com/keeganryan/a6c22e1045e67c17e88a606dfdf95ae4) - script to trigger more parts of the payload in a compromised `sshd` by @keeganryan
+* [xz-malware](https://github.com/karcherm/xz-malware) by @karcherm
+* [xz-backdoor](https://github.com/hamarituc/xz-backdoor) by @hamarituc
+* [xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems
 
 ## Other projects
 
