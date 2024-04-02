@@ -300,7 +300,7 @@ This is for suggesting specific changes which are being considered as a result o
 * groff: [[PATCH] Distribute bootstrap and bootstrap.conf](https://lists.gnu.org/archive/html/groff/2024-03/msg00211.html)
 * GNU binutils: [Remove dependency on libjansson](https://inbox.sourceware.org/binutils/CACKH++ZCwhA9n9GfsWPmBQgsSrvfeOpLha0=UCpHzPDD8vQpNQ@mail.gmail.com/T/#u)
   * This is being proposed by @rui314, the maintainer of mold. Rui also wrote about the risks to linkers in https://x.com/rui314/status/1774286434335338965.
- * openssh
+* openssh
   * Note that as covered above, OpenSSH are looking at removing the need for downstreams to patch in libsystemd by implementing a library-less version of the same functionality.
   * Andres Freund noticed an interesting [tangential bug/area for improvement](https://bugzilla.mindrot.org/show_bug.cgi?id=3675) when analysing the exploit, which would avoid checking against algorithms disabled by configuration. (This is not a vulnerability in OpenSSH and it wouldn't have prevented any of this, but it's come out of this whole thing nonetheless).
  
