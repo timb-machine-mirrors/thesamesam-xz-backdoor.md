@@ -343,6 +343,16 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 
 * **Ensuring Lasse Collin and xz-utils is supported**, even long after the fervour is over
 * Reverse engineering the payload (it's still fairly early days here on this)
+  * Once finished, tell people whether:
+    - the backdoor did anything else than waiting for connections for RCE, like:
+      - call home (send found private keys, etc)
+      - load/execute additional rogue code
+      - did some other steps to infest the system (like adding users, authorized_keys, etc.) or whether it can be certainly said, that it didn't do so
+    - other attack vectors than via sshd were possible
+    - whether people (who had the compromised versions) can feel fully safe
+      *if* they either had sshd not running OR at least not publicly
+      accessible (e.g. because it was behind a firewall, nat, iptables,
+      etc.)
 * Auditing all possibly-tainted xz-utils commits
 * Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
   * This is already partly done and it looks like none exist, but it would be nice to be sure.
