@@ -354,3 +354,4 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * https://tukaani.org/xz-backdoor/
 * https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
 * https://research.swtch.com/xz-timeline
+* https://rheaeve.substack.com/p/xz-backdoor-times-damned-times-and
