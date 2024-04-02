@@ -199,7 +199,7 @@ things we know:
 * It may activate in other scenarios too, possibly even unrelated to ssh.
 * We don't entirely know the payload is intended to do. We are
   investigating.
-* _Update_: Successful exploitation does not generate any log entries.
+* Successful exploitation does not generate any log entries.
 * Vanilla upstream OpenSSH isn't affected unless one of its
   dependencies links `liblzma`.
   * Lennart Poettering had [mentioned](https://news.ycombinator.com/item?id=39867126) that it may happen
@@ -272,7 +272,7 @@ This is the part which is very much in flux, even compared to the rest of this. 
 * [modify_ssh_rsa_pubkey.py](https://gist.github.com/keeganryan/a6c22e1045e67c17e88a606dfdf95ae4) - script to trigger more parts of the payload in a compromised `sshd` by @keeganryan
 * [xz-malware](https://github.com/karcherm/xz-malware) by @karcherm
 * [xz-backdoor](https://github.com/hamarituc/xz-backdoor) by @hamarituc
-* _[xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems. This contains binary patching for the key!_
+* [xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems. This contains binary patching for the key!
 
 ## Other projects
 
@@ -323,8 +323,6 @@ This is for linking to interesting general discussions, rather than specific cha
 
 ## Meta
 
-As an experiment, trying to use italics for new stuff to make it easier to spot.
-
 ### Response to questions
 
 * A few people have asked why Jia Tan followed me (@thesamesam) on GitHub. #tukaani was a small community on IRC before this kicked off (~10 people, currently has ~350). I've been in #tukaani for a few years now. When the move from self-hosted infra to github was being planned and implemented, I was around and starred & followed the new Tukaani org pretty quickly.
@@ -345,7 +343,7 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 
 * **Ensuring Lasse Collin and xz-utils is supported**, even long after the fervour is over
 * Reverse engineering the payload (it's still fairly early days here on this)
-  * _Once finished, tell people whether:_
+  * Once finished, tell people whether:
     - the backdoor did anything else than waiting for connections for RCE, like:
       - call home (send found private keys, etc)
       - load/execute additional rogue code
@@ -359,7 +357,7 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
   * This is already partly done and it looks like none exist, but it would be nice to be sure.
 * Checking other projects for similar injection mechanisms (e.g. similar build system lines)
-* _Diff and review all "golden" upstream tarballs used by distros against the output of creating a tarball from the git tag for all packages._
+* Diff and review all "golden" upstream tarballs used by distros against the output of creating a tarball from the git tag for all packages.
 * ???
 
 ## References and other reading material
