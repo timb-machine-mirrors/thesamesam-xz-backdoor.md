@@ -248,8 +248,8 @@ xz-utils had two maintainers:
   about 1.5 years ago. He was removed on 2024-03-31 as Lasse begins
   his long work ahead.
 
-Lasse regularly has internet breaks and is on one at the moment,
-started before this all kicked off. He has posted an update
+Lasse regularly has internet breaks and was on one of these
+as this all kicked off. He has posted an update
 at https://tukaani.org/xz-backdoor/ and is working with the community.
 
 Please be patient with him as he gets up to speed and takes time
