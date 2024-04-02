@@ -257,6 +257,7 @@ to analyse the situation carefully.
 ## Misc notes
 * [Please __do not__ use `ldd` on untrusted binaries](https://jmmv.dev/2023/07/ldd-untrusted-binaries.html)
   * [[PATCH] ldd: Do not recommend binutils as the safer option](https://lore.kernel.org/linux-man/20231016061923.105814-1-siddhesh@gotplt.org/t/#u)
+* [Internet Archive has a collection of the release tarballs](https://web.archive.org/web/*/https://github.com/tukaani-project/xz/releases/download/*)
 
 ## Analysis of the payload
 
