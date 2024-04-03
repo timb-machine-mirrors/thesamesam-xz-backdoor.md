@@ -338,6 +338,7 @@ This is for linking to interesting general discussions, rather than specific cha
 * Mention detection?
 * Explain the bug-autoconf thing maybe wrt serial
 * Explain dist tarballs, why we use them, what they do, link to autotools docs, etc
+  * "Explaining the history of it would be very helpful I think.  It also explains how a single person was able to insert code in an open source project that no one was able to peer review.  It is pragmatically impossible, even if technically possible once you know the problem is there, to peer review a tarball prepared in this manner."
 
 ### TODO overall
 
