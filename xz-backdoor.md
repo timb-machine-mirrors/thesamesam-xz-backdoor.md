@@ -337,6 +337,7 @@ This is for linking to interesting general discussions, rather than specific cha
 * Include the injection script after the macro
 * Mention detection?
 * Explain the bug-autoconf thing maybe wrt serial
+* Explain dist tarballs, why we use them, what they do, link to autotools docs, etc
 
 ### TODO overall
 
