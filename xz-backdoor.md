@@ -330,7 +330,7 @@ This is for linking to interesting general discussions, rather than specific cha
 
 * A few people have asked why Jia Tan followed me (@thesamesam) on GitHub. #tukaani was a small community on IRC before this kicked off (~10 people, currently has ~350). I've been in #tukaani for a few years now. When the move from self-hosted infra to github was being planned and implemented, I was around and starred & followed the new Tukaani org pretty quickly.
 
-* I'm referenced in one of the [commits](https://git.tukaani.org/?p=xz.git;a=commit;h=72d2933bfae514e0dbb123488e9f1eb7cf64175f) in the original oss-security post that works around noise from the IFUNC resolver. This was a legitimate issue which applies to IFUNC resolvers in general. The GCC bug it led to ([PR114115](https://gcc.gnu.org/PR114115)) remains open and has a patch pending from a GCC developer.
+* I'm referenced in one of the [commits](https://git.tukaani.org/?p=xz.git;a=commit;h=72d2933bfae514e0dbb123488e9f1eb7cf64175f) in the original oss-security post that works around noise from the IFUNC resolver. This was a legitimate issue which applies to IFUNC resolvers in general. The GCC bug it led to ([PR114115](https://gcc.gnu.org/PR114115)) has been fixed.
   * On reflection, there may have been a missed opportunity as maybe I should have looked into why I couldn't hit the reported Valgrind problems from Fedora on Gentoo, but this isn't the place for my own reflections nor is it IMO the time yet.
 
 ### TODO for this doc
