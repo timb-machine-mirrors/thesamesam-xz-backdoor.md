@@ -316,6 +316,7 @@ This is for linking to interesting general discussions, rather than specific cha
 
 * automake: [GNU Coding Standards, automake, and the recent xz-utils backdoor](https://lists.gnu.org/archive/html/automake/2024-03/msg00007.html)
 * fedora-devel: [Three steps we could take to make supply chain attacks a bit harder](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/YWMNOEJ34Q7QLBWQAB5TM6A2SVJFU4RV/)
+* debian-devel: [Upstream dist tarball transparency (was Re: Validating tarballs against git repositories)](https://lists.debian.org/debian-devel/2024/04/msg00103.html)
 
 ## Acknowledgements
 
