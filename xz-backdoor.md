@@ -378,3 +378,5 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * https://research.swtch.com/xz-timeline
 * https://rheaeve.substack.com/p/xz-backdoor-times-damned-times-and
 * https://research.swtch.com/xz-script
+* https://lwn.net/Articles/967866/
+* https://lwn.net/Articles/967192/
