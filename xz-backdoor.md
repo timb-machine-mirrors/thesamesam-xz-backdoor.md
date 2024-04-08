@@ -263,7 +263,7 @@ to analyse the situation carefully.
 
 ## Analysis of the payload
 
-This is the part which is very much in flux, even compared to the rest of this. It's early days yet.
+This is the part which is very much in flux. It's early days yet.
 
 * [xz/liblzma: Bash-stage Obfuscation Explained by @gynvael](https://gynvael.coldwind.pl/?lang=en&id=782)
 * [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
