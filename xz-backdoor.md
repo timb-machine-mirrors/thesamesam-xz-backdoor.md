@@ -282,8 +282,11 @@ There are concerns some other projects are affected (either by themselves or cha
 * libarchive is being checked out:
   * https://github.com/libarchive/libarchive/issues/2103 coordinates the review effort
   * https://github.com/libarchive/libarchive/pull/1609 was made by Jia Tan
+    * [Solar Designer's take](https://openwall.com/lists/oss-security/2024/03/31/11) - with an interesting discussion about how terminal applications should act here
+    * The initial fix post-review for this was https://github.com/libarchive/libarchive/pull/2101 (https://github.com/libarchive/libarchive/commit/6110e9c82d8ba830c3440f36b990483ceaaea52c).
     * After review, https://github.com/libarchive/libarchive/pull/2101 was made by libarchive maintainers.
     * It doesn't appear exploitable but the change in https://github.com/libarchive/libarchive/pull/2101 was made out of caution.
+    * One of the libarchive maintainers has filed https://github.com/libarchive/libarchive/issues/2107 to discuss a better fix as well.
 
 * https://github.com/google/oss-fuzz/pull/10667 was made by Jia Tan to disable IFUNC in oss-fuzz when testing xz-utils
   * It is unclear if this was safe or not. Obviously, it doesn't look great, but see below.
