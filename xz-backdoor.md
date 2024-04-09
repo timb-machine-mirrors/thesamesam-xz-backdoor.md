@@ -302,6 +302,7 @@ There are concerns some other projects are affected (either by themselves or cha
 This is for suggesting specific changes which are being considered as a result of this.
 
 * CMake: [Consider hardening check_c_source_compiles](https://gitlab.kitware.com/cmake/cmake/-/issues/25846) - [MR](https://gitlab.kitware.com/cmake/cmake/-/merge_requests/9391)
+* bug-autoconf: [Add a syntax check to code snippets](https://savannah.gnu.org/support/?111048)
 * bug-autoconf: [autoreconf --force seemingly does not forcibly update everything](https://lists.gnu.org/archive/html/bug-autoconf/2024-03/msg00000.html)
 * systemd: [Reduce dependencies of libsystemd](https://github.com/systemd/systemd/issues/32028)
   * _Note_: There was prior work already on this in e.g. https://github.com/systemd/systemd/pull/31550. While it was initially thought that this [may have](https://openwall.com/lists/oss-security/2024/03/31/9) have caused acceleration of plans to backdoor xz, as the systemd changes had not yet landed in a release, the timing doesn't seem to work out..
