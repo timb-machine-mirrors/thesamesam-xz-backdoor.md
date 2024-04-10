@@ -316,7 +316,6 @@ This is for suggesting specific changes which are being considered as a result o
 * openssh
   * Note that as covered above, OpenSSH are looking at removing the need for downstreams to patch in libsystemd by implementing a library-less version of the same functionality.
   * Andres Freund noticed an interesting [tangential bug/area for improvement](https://bugzilla.mindrot.org/show_bug.cgi?id=3675) when analysing the exploit, which would avoid checking against algorithms disabled by configuration. (This is not a vulnerability in OpenSSH and it wouldn't have prevented any of this, but it's come out of this whole thing nonetheless).
- 
 * Auditing Linux distribution packages with [distro-backdoor-scanner](https://github.com/hlein/distro-backdoor-scanner)
  
 ## Discussions in the wake of this
