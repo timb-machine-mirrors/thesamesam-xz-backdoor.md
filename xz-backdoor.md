@@ -390,3 +390,4 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * https://research.swtch.com/xz-script
 * https://lwn.net/Articles/967866/
 * https://lwn.net/Articles/967192/
+* https://news.opensuse.org/2024/04/12/learn-from-the-xz-backdoor/
