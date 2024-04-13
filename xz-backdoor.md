@@ -276,6 +276,7 @@ This is the part which is very much in flux. It's early days yet.
 * [XZ Backdoor Extract](https://github.com/0xlane/xz-cve-2024-3094) by @0xlane
 * https://github.com/blasty/JiaTansSSHAgent
 * [XZ backdoor story – Initial analysis](https://securelist.com/xz-backdoor-story-part-1/112354) by Kaspersky
+* [liblzma.so infection](https://github.com/binarly-io/binary-risk-intelligence/tree/master/xz-backdoor) by binarly.io
 
 ## Other projects
 
