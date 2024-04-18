@@ -322,6 +322,8 @@ This is for suggesting specific changes which are being considered as a result o
     * Per Debian's [package tracker](https://tracker.debian.org/pkg/xz-utils), _xz-5.6.0_ was first added on that same day. This predates the systemd PR which was opened on 2024-02-29.
     * That said, the [original PR](https://github.com/systemd/systemd/pull/31131) to move systemd towards more `dlopen()` for e.g. `kmod` was opened on 2024-01-30.
     * On the same day, a systemd developer [suggested](https://github.com/systemd/systemd/pull/31131#issuecomment-1917954597) extending the approach to compression libraries.
+* systemd: [RFC: expose dlopen() dependencies in an ELF section](https://github.com/systemd/systemd/pull/32234)
+  * [LWN](https://lwn.net/Articles/969908/)
 * groff: [[PATCH] Distribute bootstrap and bootstrap.conf](https://lists.gnu.org/archive/html/groff/2024-03/msg00211.html)
 * GNU binutils: [Remove dependency on libjansson](https://inbox.sourceware.org/binutils/CACKH++ZCwhA9n9GfsWPmBQgsSrvfeOpLha0=UCpHzPDD8vQpNQ@mail.gmail.com/T/#u)
   * This is being proposed by @rui314, the maintainer of mold. Rui also wrote about the risks to linkers in https://x.com/rui314/status/1774286434335338965.
