@@ -412,8 +412,9 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
 * https://research.swtch.com/xz-timeline
 * https://rheaeve.substack.com/p/xz-backdoor-times-damned-times-and
-* https://lwn.net/Articles/967866/
-* https://lwn.net/Articles/967192/
+* [LWN - Free software's not-so-eXZellent adventure](https://lwn.net/Articles/967866/)
+* [LWN - How the XZ backdoor works](https://lwn.net/Articles/967192/)
+* [LWN - Identifying dependencies used via dlopen()](https://lwn.net/Articles/969908/)
 * https://news.opensuse.org/2024/04/12/learn-from-the-xz-backdoor/
 * https://www.cisa.gov/news-events/news/lessons-xz-utils-achieving-more-sustainable-open-source-ecosystem
 * https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/
