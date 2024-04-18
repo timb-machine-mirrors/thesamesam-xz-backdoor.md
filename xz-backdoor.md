@@ -337,6 +337,10 @@ This is for linking to interesting general discussions, rather than specific cha
 * debian-devel: [Upstream dist tarball transparency (was Re: Validating tarballs against git repositories)](https://lists.debian.org/debian-devel/2024/04/msg00103.html)
 * oss-security: [Make your own backdoor: CFLAGS code injection, Makefile injection, pkg-config](https://www.openwall.com/lists/oss-security/2024/04/17/3)
 
+Non-mailing list proposals:
+* Simon Josefsson's blog: [Towards reproducible minimal source code tarballs? On *-src.tar.gz](https://blog.josefsson.org/2024/04/01/towards-reproducible-minimal-source-code-tarballs-please-welcome-src-tar-gz/)
+* Simon Josefsson's blog: [Reproducible and minimal source-only tarballs](https://blog.josefsson.org/2024/04/13/reproducible-and-minimal-source-only-tarballs/)
+
 ## Acknowledgements
 
 * Andres Freund who discovered the issue and reported it to *linux-distros* and then *oss-security*.
