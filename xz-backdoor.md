@@ -266,7 +266,11 @@ to analyse the situation carefully.
 
 This is the part which is very much in flux. It's early days yet.
 
+These two especially do a great job of analysing the initial/bash stages:
 * [xz/liblzma: Bash-stage Obfuscation Explained by @gynvael](https://gynvael.coldwind.pl/?lang=en&id=782)
+* [The xz attack shell script](https://research.swtch.com/xz-script)
+
+
 * [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
 * [XZ Backdoor Analysis (WIP)](https://gist.github.com/smx-smx/a6112d54777845d389bd7126d6e9f504) by @smx-smx
 * [xz backdoor documentation wiki](https://github.com/Midar/xz-backdoor-documentation/wiki) by @Midar et. al
