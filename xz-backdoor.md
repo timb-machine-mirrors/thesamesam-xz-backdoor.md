@@ -405,17 +405,17 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 
 ## References and other reading material
 
-* https://lwn.net/Articles/967180/
-* https://www.openwall.com/lists/oss-security/2024/03/29/4
-* https://boehs.org/node/everything-i-know-about-the-xz-backdoor
-* https://tukaani.org/xz-backdoor/
-* https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
-* https://research.swtch.com/xz-timeline
-* https://rheaeve.substack.com/p/xz-backdoor-times-damned-times-and
+* [LWN - A backdoor in xz](https://lwn.net/Articles/967180/)
+* [oss-security - backdoor in upstream xz/liblzma leading to ssh server compromise](https://www.openwall.com/lists/oss-security/2024/03/29/4)
+* [Evan Boehs - Everything I know about the XZ backdoor](https://boehs.org/node/everything-i-know-about-the-xz-backdoor)
+* [Tukaani - XZ Utils backdoor](https://tukaani.org/xz-backdoor/)
+* [Rob Mensching - A Microcosm of the interactions in Open Source projects](https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/)
+* [Russ Cox - Timeline of the xz open source attack](https://research.swtch.com/xz-timeline)
+* [Rhea's Substack - XZ Backdoor: Times, damned times, and scams](https://rheaeve.substack.com/p/xz-backdoor-times-damned-times-and)
 * [LWN - Free software's not-so-eXZellent adventure](https://lwn.net/Articles/967866/)
 * [LWN - How the XZ backdoor works](https://lwn.net/Articles/967192/)
 * [LWN - Identifying dependencies used via dlopen()](https://lwn.net/Articles/969908/)
-* https://news.opensuse.org/2024/04/12/learn-from-the-xz-backdoor/
-* https://www.cisa.gov/news-events/news/lessons-xz-utils-achieving-more-sustainable-open-source-ecosystem
-* https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/
+* [openSUSE - What we need to take away from the XZ Backdoor](https://news.opensuse.org/2024/04/12/learn-from-the-xz-backdoor/)
+* [CISA - Lessons from XZ Utils: Achieving a More Sustainable Open Source Ecosystem](https://www.cisa.gov/news-events/news/lessons-xz-utils-achieving-more-sustainable-open-source-ecosystem)
+* [OpenSSF - Open Source Security (OpenSSF) and OpenJS Foundations Issue Alert for Social Engineering Takeovers of Open Source Projects](https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/)
 * https://github.com/przemoc/xz-backdoor-links
