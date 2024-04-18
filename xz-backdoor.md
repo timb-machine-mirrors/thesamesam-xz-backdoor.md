@@ -390,6 +390,8 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * Investigate other paths for `sshd` to get `liblzma` in its process (not just via `libsystemd`, or at least not directly)
   * This is already partly done and it looks like none exist, but it would be nice to be sure.
 * Checking other projects for similar injection mechanisms (e.g. similar build system lines)
+  * See [distro-backdoor-scanner](https://github.com/hlein/distro-backdoor-scanner)
+  * https://codesearch.debian.net/ may be helpful 
 * Diff and review all "golden" upstream tarballs used by distros against the output of creating a tarball from the git tag for all packages.
 * Check other projecs which (recently) introduced IFUNC, as suggested by _thegrugq_.
   * This isn't a bad idea even outside of potential backdoors, given how brittle IFUNC is. 
