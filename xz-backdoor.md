@@ -332,6 +332,7 @@ This is for suggesting specific changes which are being considered as a result o
 This is for linking to interesting general discussions, rather than specific changes being suggested (see above).
 
 * automake: [GNU Coding Standards, automake, and the recent xz-utils backdoor](https://lists.gnu.org/archive/html/automake/2024-03/msg00007.html)
+* bug-gnulib: [git repositories vs. tarballs](https://lists.gnu.org/archive/html/bug-gnulib/2024-04/msg00239.html)
 * fedora-devel: [Three steps we could take to make supply chain attacks a bit harder](https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/thread/YWMNOEJ34Q7QLBWQAB5TM6A2SVJFU4RV/)
 * debian-devel: [Upstream dist tarball transparency (was Re: Validating tarballs against git repositories)](https://lists.debian.org/debian-devel/2024/04/msg00103.html)
 * oss-security: [Make your own backdoor: CFLAGS code injection, Makefile injection, pkg-config](https://www.openwall.com/lists/oss-security/2024/04/17/3)
