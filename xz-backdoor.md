@@ -354,6 +354,10 @@ Non-mailing list proposals:
 
 ## Meta
 
+**Please try to keep comments on the gist constrained to editorial changes I need to make, new sources, etc.**
+
+There are various places to theorise & such, please see e.g. https://discord.gg/TPz7gBEE (for both, reverse engineering and OSint). (I'm not associated with that Discord but the link is going around, so...)
+
 ### Response to questions
 
 * A few people have asked why Jia Tan followed me (@thesamesam) on GitHub. #tukaani was a small community on IRC before this kicked off (~10 people, currently has ~350). I've been in #tukaani for a few years now. When the move from self-hosted infra to github was being planned and implemented, I was around and starred & followed the new Tukaani org pretty quickly.
