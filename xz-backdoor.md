@@ -76,6 +76,7 @@ This backdoor has several components. At a high level:
     - `tests/files/good-large_compressed.lzma`
       ([cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0](https://github.com/tukaani-project/xz/commit/cf44e4b7f5dfdbf8c78aef377c10f71e274f63c0),
       [74b138d2a6529f2c07729d7c77b1725a8e8b16f1](https://github.com/tukaani-project/xz/commit/74b138d2a6529f2c07729d7c77b1725a8e8b16f1))
+* Note that the bad commits have since been reverted in [e93e13c8b3bec925c56e0c0b675d8000a0f7f754](https://github.com/tukaani-project/xz/commit/e93e13c8b3bec925c56e0c0b675d8000a0f7f754)
 * A script called by `build-to-host.m4` that unpacks this malicious
   test data and uses it to modify the build process.
 * IFUNC, a mechanism in glibc that allows for indirect function calls,
