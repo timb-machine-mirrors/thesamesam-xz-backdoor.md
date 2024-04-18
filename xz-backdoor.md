@@ -270,7 +270,6 @@ These two especially do a great job of analysing the initial/bash stages:
 * [xz/liblzma: Bash-stage Obfuscation Explained by @gynvael](https://gynvael.coldwind.pl/?lang=en&id=782)
 * [The xz attack shell script](https://research.swtch.com/xz-script)
 
-
 * [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
 * [XZ Backdoor Analysis (WIP)](https://gist.github.com/smx-smx/a6112d54777845d389bd7126d6e9f504) by @smx-smx
 * [xz backdoor documentation wiki](https://github.com/Midar/xz-backdoor-documentation/wiki) by @Midar et. al
@@ -395,7 +394,6 @@ Anyone can and should work on these. I'm just listing them so people have a roug
 * https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/
 * https://research.swtch.com/xz-timeline
 * https://rheaeve.substack.com/p/xz-backdoor-times-damned-times-and
-* https://research.swtch.com/xz-script
 * https://lwn.net/Articles/967866/
 * https://lwn.net/Articles/967192/
 * https://news.opensuse.org/2024/04/12/learn-from-the-xz-backdoor/
