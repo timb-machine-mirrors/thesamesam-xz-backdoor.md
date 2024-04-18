@@ -267,7 +267,7 @@ to analyse the situation carefully.
 This is the part which is very much in flux. It's early days yet.
 
 These two especially do a great job of analysing the initial/bash stages:
-* [xz/liblzma: Bash-stage Obfuscation Explained by @gynvael](https://gynvael.coldwind.pl/?lang=en&id=782)
+* [xz/liblzma: Bash-stage Obfuscation Explained](https://gynvael.coldwind.pl/?lang=en&id=782) by @gynvael
 * [The xz attack shell script](https://research.swtch.com/xz-script)
 
 * [Filippo Valsorda's bluesky thread](https://bsky.app/profile/did:plc:x2nsupeeo52oznrmplwapppl/post/3kowjkx2njy2b)
