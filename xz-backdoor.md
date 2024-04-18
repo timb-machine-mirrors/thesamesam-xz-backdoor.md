@@ -123,6 +123,9 @@ This attack thusly seems to be targeted at amd64 systems running glibc
 using either Debian or Red Hat derived distributions. Other systems
 may be vulnerable at this time, but we don't know.
 
+Lasse Collin, the original long-standing xz maintainer, is currently working on
+auditing the `xz.git`.
+
 ## Design specifics
 
 ```diff
@@ -261,6 +264,7 @@ to analyse the situation carefully.
   * [[PATCH] ldd: Do not recommend binutils as the safer option](https://lore.kernel.org/linux-man/20231016061923.105814-1-siddhesh@gotplt.org/t/#u)
 * [Internet Archive has a collection of the release tarballs](https://web.archive.org/web/*/https://github.com/tukaani-project/xz/releases/download/*)
 * I've also created a git repo for my own convenience at https://github.com/thesamesam/xz-archive.
+* Lasse Collin's in-progress [review notes](https://tukaani.org/xz-backdoor/review.html) as he audits xz.git
 
 ## Analysis of the payload
 
