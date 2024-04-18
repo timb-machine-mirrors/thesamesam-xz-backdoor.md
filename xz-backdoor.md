@@ -277,7 +277,7 @@ This is the part which is very much in flux. It's early days yet.
 * https://github.com/blasty/JiaTansSSHAgent
 * [XZ backdoor story – Initial analysis](https://securelist.com/xz-backdoor-story-part-1/112354) by Kaspersky
 * [liblzma.so infection](https://github.com/binarly-io/binary-risk-intelligence/tree/master/xz-backdoor) by binarly.io
-* [Minimal setup to trigger the xz backdoor](https://github.com/felipec/xz-min] by @felipec
+* [Minimal setup to trigger the xz backdoor](https://github.com/felipec/xz-min) by @felipec
 
 ## Other projects
 
