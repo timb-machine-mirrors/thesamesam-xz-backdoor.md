@@ -330,6 +330,8 @@ This is for suggesting specific changes which are being considered as a result o
   * Andres Freund noticed an interesting [tangential bug/area for improvement](https://bugzilla.mindrot.org/show_bug.cgi?id=3675) when analysing the exploit, which would avoid checking against algorithms disabled by configuration. (This is not a vulnerability in OpenSSH and it wouldn't have prevented any of this, but it's come out of this whole thing nonetheless).
 * Auditing Linux distribution packages with [distro-backdoor-scanner](https://github.com/hlein/distro-backdoor-scanner)
 * esr's [autodafe](https://gitlab.com/esr/autodafe/) to aid conversion from autotools -> Makefiles
+* backseat-signed: [New supply-chain security tool: backseat-signed](https://lists.debian.org/debian-devel/2024/04/msg00088.html)
+  * github: https://github.com/kpcyrd/backseat-signed
  
 ## Discussions in the wake of this
 
