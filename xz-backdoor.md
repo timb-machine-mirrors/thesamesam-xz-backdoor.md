@@ -1,9 +1,5 @@
 # FAQ on the xz-utils backdoor (CVE-2024-3094)
 
-This is still a new situation. There is a lot we don't know. We don't
-know if there are more possible exploit paths. We only know about this
-one path. Please update your systems regardless.
-
 This is a living document. Everything in this document is made in good
 faith of being accurate, but like I just said; we don't yet know everything
 about what's going on.
