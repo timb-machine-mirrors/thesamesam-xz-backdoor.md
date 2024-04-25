@@ -281,7 +281,8 @@ Other great resources:
 * [xzbot: notes, honeypot, and exploit demo](https://github.com/amlweems/xzbot) by @amlweems. This contains binary patching for the key!
 * [XZ Backdoor Extract](https://github.com/0xlane/xz-cve-2024-3094) by @0xlane
 * https://github.com/blasty/JiaTansSSHAgent
-* [XZ backdoor story – Initial analysis](https://securelist.com/xz-backdoor-story-part-1/112354) by Kaspersky
+* [XZ backdoor story – Initial analysis](https://securelist.com/xz-backdoor-story-part-1/112354) (part 1) by Kaspersky
+  * [Assessing the Y, and How, of the XZ Utils incident](https://securelist.com/xz-backdoor-story-part-2-social-engineering/112476/) (part 2) by Kaspersky
 * [liblzma.so infection](https://github.com/binarly-io/binary-risk-intelligence/tree/master/xz-backdoor) by binarly.io
 * [Minimal setup to trigger the xz backdoor](https://github.com/felipec/xz-min) by @felipec
 
