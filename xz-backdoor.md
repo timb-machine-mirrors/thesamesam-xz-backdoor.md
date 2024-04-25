@@ -7,7 +7,7 @@ about what's going on.
 ## Background
 
 On March 29th, 2024, a backdoor was discovered in
-[xz-utils](https://xz.tukaani.org/xz-utils/), a suite of software that
+[xz-utils](https://tukaani.org/xz/), a suite of software that
 gives developers lossless compression. This package is commonly used
 for compressing release tarballs, software packages, kernel images,
 and initramfs images. It is very widely distributed, statistically
